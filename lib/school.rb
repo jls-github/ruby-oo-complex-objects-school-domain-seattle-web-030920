@@ -19,6 +19,7 @@ class School
   
   def sort
     @roster.each {|grade, students| students = students.sort}
+    puts ["a", "b", "d", "c"].sort
     @roster
   end
   
