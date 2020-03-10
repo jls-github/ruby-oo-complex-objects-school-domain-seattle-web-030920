@@ -10,7 +10,7 @@ class School
   end
   
   def add_student(student_name, grade)
-    @roster[grade].class == nilclass ? roster[grade] == [student_name] : @roster[grade].push(student_name)
+    @roster[grade].class == NilClass ? roster[grade] == [student_name] : @roster[grade].push(student_name)
   end
   
 end
