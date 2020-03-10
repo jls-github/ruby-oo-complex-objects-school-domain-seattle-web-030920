@@ -13,4 +13,12 @@ class School
     @roster[grade].class == NilClass ? @roster[grade] = [student_name] : @roster[grade].push(student_name)
   end
   
+  def grade(grade_number)
+    @roster[grade_number]
+  end
+  
+  def sort
+    @roster
+  end
+  
 end
